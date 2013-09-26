@@ -1,0 +1,22 @@
+<?php
+/**
+ * Searchform
+ *
+ * Custom template for search form
+ */
+?>
+
+<form method="get" id="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+	<div class="row">
+		<div class="large-12 columns">
+			<div class="row collapse">
+				<div class="large-8 small-8 columns">
+					<input type="text" name="s" id="s" placeholder="<?php esc_attr_e( 'Search', 'poortfolio' ); ?>" />
+				</div>
+				<div class="large-4 small-4 columns">
+					<input type="submit" class="button prefix" name="submit" id="searchsubmit" value="<?php esc_attr_e( 'Search', 'foundation' ); ?>" />
+				</div>
+			</div>
+		</div>
+	</div>
+</form>
