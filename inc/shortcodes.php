@@ -251,9 +251,9 @@ function poortfolio_gallery_shortcode($attr) {
 			$js++;
 		}
 		
-		include(get_template_directory().'/inc/cc_gallery_shortcode_template.php');
+		include(get_template_directory().'/inc/gallery_shortcode_template.php');
 	} else
-		include(get_template_directory().'/inc/cc_gallery_shortcode_onecolumn_template.php');
+		include(get_template_directory().'/inc/gallery_shortcode_onecolumn_template.php');
 	
 	$output = ob_get_clean();
 	
